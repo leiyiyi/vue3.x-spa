@@ -1,7 +1,20 @@
 {
-  "name": "vue3.x-demo-template",
+  "name": "vue3.x-spa-template",
   "version": "0.1.0",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leiyiyi/vue3.x-spa.git"
+  },
+  "keywords": [
+    "vue",
+    "vue spa template"
+  ],
+  "author": "Leiyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leiyiyi/vue3.x-spa/issues"
+  },
+  "homepage": "https://github.com/leiyiyi/vue3.x-spa#readme",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -10,6 +23,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
